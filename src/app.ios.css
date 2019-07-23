@@ -1,0 +1,341 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+@import '~nativescript-theme-core/css/core.light.css';
+
+/*
+For example, the following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.hr {
+    height:1;
+    width:100%;
+}
+.far {
+    font-family: "Swiss721" "Swiss721_normal";
+    font-weight: 400;
+}
+.fas {
+    font-family: "Swiss721" "Swiss721_bold";
+}
+.ico {
+    font-family: "FontAwesome";
+}
+.page-content .page-placeholder {
+    font-size: 20;
+    vertical-align: center;
+    horizontal-align: center;
+}
+.page-content .page-icon {
+    font-size: 72;
+    vertical-align: top;
+    horizontal-align: center;
+    margin-top: 20%;
+}
+
+.sidedrawer {
+    margin: 0;
+    padding: 0;
+}
+.sidedrawer-content{
+    padding-left: 10;
+    padding-right: 10;
+    margin-left: 20;
+    margin-right: 20;
+}
+ .sidedrawer-list-item{
+    padding-left: 15;
+    margin-top: 5;
+    margin-bottom: 5;
+}
+.nav-name {
+    padding-right: 10;
+    vertical-align: center;
+    font-weight: bold;
+}
+.fa {
+    vertical-align: center;
+    width: 20;
+    margin-right: 10;
+    font-weight: normal;
+}
+.sidedrawer-header {
+    width: 100%;
+}
+.sidedrawer-header .fa {
+    text-align: right;
+    font-size: 25;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    margin-right: 2;
+    horizontal-align: right;
+    vertical-align: top;
+}
+.sidedrawer-footer {
+    font-size: 20;
+    text-align: center;
+    horizontal-align: center;
+    vertical-align: top;
+    font-weight: 100;
+    padding-bottom: 5;
+}
+.activityBar {
+    width: 50;
+    height: 40;
+}
+:disabled {
+    opacity: 0.5;
+}
+.errormessage {
+    color: red;
+}
+.action-bar-label {
+    font-size: 26;
+    margin-left: -40;
+    horizontal-align: center;
+    vertical-align: center;
+}
+.action-bar {
+    border-color: transparent;    
+}
+.page-header-green {
+    padding-top: 2;
+    padding-bottom: 2;
+    font-size: 20;
+    horizontal-align: center;
+    vertical-align: center;
+}
+.page-button-grey {
+}
+.main-page {
+    padding: 8;
+    padding-top: 4;
+}
+.card-tile {
+    margin: 4;
+    margin-top:8;
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-left: auto;
+    padding-right: auto;
+    border-width: 0.1;
+}
+.cardImage {
+    margin-left: 15;
+    margin-right: 15;
+}
+.card-item {
+    font-weight: 400;
+    
+}
+.item-name {
+    font-size: 20;
+    vertical-align: center;
+    horizontal-align: center;
+}
+.item-desc {
+    padding-top: auto;
+    padding-bottom: auto;
+    vertical-align: center;
+    horizontal-align: center;
+    text-align: center;
+    font-size: 32;
+    font-weight: bold;
+}
+.item-sec-desc {
+    padding-left: auto;
+    padding-right: auto;
+    vertical-align: center;
+    text-align: center;
+}
+.meal-category {
+    text-align: left;
+    font-size: 20;
+    font-weight: bold;
+}
+.grades-table-header {
+    text-align: center;
+    font-size: 18;
+    font-weight: bold;
+}
+.grades-page {
+    height: 100%;
+    padding: 10; 
+}
+.grades-page-container {
+    padding: 10;
+}
+.schedule-page {
+    margin: 10;
+    padding-left: 20;
+    padding-right: 20;
+    padding-top: 0;
+}
+.schedule-lecture-block {
+    padding-top: 20;
+    /* padding-bottom: 10; */
+    padding-left: 20;
+    padding-right: 20;
+}
+.lecture-name {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18;
+}
+.schedule-day-header {
+    text-align: left;
+    vertical-align: center;
+    font-weight: bold;
+    font-size: 26;
+    padding-left: 5;
+}
+.schedule-lecture-block StackLayout {
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+}
+.schedule-table-content {
+    font-size: 16;
+    padding-left: 20;
+    padding-right: 20;
+}
+.schedule-collapse-symbol {
+    font-size: 31;
+    margin-top: -5;
+}
+.schedule-collapse-symbol-minus {
+    margin-right: -10;
+    margin-top: -11;
+    font-size: 35;
+}
+.home-panel{
+    vertical-align: center; 
+    font-size: 20;
+    margin: 15;
+}
+
+.description-label{
+    margin-bottom: 15;
+}
+
+/* light theme */
+.hr {
+    background-color:#303030;
+}
+
+.page-content .page-placeholder {
+    color: #334152;
+}
+.page-content .page-icon {
+    color: #334152;
+}
+.page {
+    background-image: url("~/images/background_light_2.png");
+    background-size: cover;
+    color: black;
+}
+.sidedrawer { 
+    background-color: #334152;
+}
+.sidedrawer-header {
+    background-color: #334152;
+    color: white;
+}
+.sidedrawer-list-item-icon,.sidedrawer-list-item{
+    color: #334152;
+}
+.sidedrawer.sidedrawer-left {
+    background-color: #334152;
+}
+.sidedrawer.sidedrawer-left .footnote {
+    color: #334152;
+}
+ /* .sidedrawer-header-brand {
+     color: black;
+     font-weight: bold;
+} */
+.sidedrawer-content{ 
+    background-color: #fff;
+}
+.sidedrawer-list-item Label {
+    color: black;
+}
+.sidedrawer-list-item.selected {
+    background-color: #d9e5ec;
+}
+.sidedrawer-list-item.selected Label {
+    color:#3A53FF;
+}
+
+.action-bar-label {
+    color: black;
+    font-weight: bold;
+}
+.action-bar {  
+    color: #009b91;
+    background-color: #d9e5ec;
+}
+.page-header-green {
+    color: #009b91;
+}
+.page-button-grey {
+    background-color: #334152;
+    color: #fff;
+}
+.card-tile {
+    border-color: rgb(211, 211, 211);
+}
+.meal-category {
+    color: black;
+}
+.grades-table-header {
+    color: black;
+}
+.schedule-page {
+    background-color: white;
+}
+.grades-page-container {
+    background-color: white;
+}
+.schedule-table-header {
+    color: black;
+}
+.schedule-day-header {
+    background-color: white; 
+    color: black;
+    border-radius: 5;
+}
+.schedule-lecture-block .hr {
+    background-color: #334152;
+}
+.schedule-collapse-symbol {
+    color: #009b91;
+}
+.event-page {
+    /* background-color: #fff; */
+}
+.event-header {
+    font-size: 20;
+    font-weight: bold;
+    text-align: left;
+    padding: auto;
+    margin-bottom: 10;
+    margin-top: 10;
+    vertical-align: middle;
+    border-bottom-width: 1; 
+    border-bottom-color: gray;
+}
+.event-body {
+    color: black;
+    font-size: 16;
+    text-align: left;
+}

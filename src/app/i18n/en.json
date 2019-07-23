@@ -1,0 +1,101 @@
+{
+    "app": {
+        "name": "HTWG Campus"
+    },
+    "ios": {
+        "info.plist": {
+            "NSLocationWhenInUseUsageDescription": "This will be added to InfoPlist.strings"
+        }
+    },
+    "about": {
+        "screenTitle": "About",
+        "developer": "Developed by",
+        "designer": "Designed by",
+        "supervisor": "Supervised by"
+    },
+    "login": {
+        "signin": "Sign in",
+        "signout": "Logout",
+        "remember": "Remember me",
+        "username": "Username",
+        "password": "Password",
+        "error": "Benutzername oder Password falsch"
+    },
+    "canteen": {
+        "screenTitle": "Weekly Menu",
+        "preview": "no menu found",
+        "student": "Students",
+        "employee": "Employees",
+        "weekend": "Weekend"
+    },
+    "endlicht": {
+        "screenTitle": "Endlicht",
+        "opening": "Opening Hours",
+        "beverages": "Beverages",
+        "map": "Campus map"
+    },
+    "events": {
+        "screenTitle": "Events"
+    },
+    "grades": {
+        "title": "Grades",
+        "course": "Course",
+        "mark": "Mark"
+    },
+    "LSF": {
+        "screenTitle": "Timetable",
+        "emptyTxt": "No lectures found",
+        "noneLectures": "No lectures",
+        "selectLecture": "Please schedule your timetable (LSF)",
+        "name": "Name",
+        "room": "Room",
+        "start": "Start",
+        "end": "End",
+        "category": "Category",
+        "sunday": "Su",
+        "monday": "Mo",
+        "tuesday": "Tu",
+        "wednesday": "We",
+        "thursday": "Th",
+        "friday": "Fr",
+        "saturday": "Sa",
+        "sundayF": "Sunday",
+        "mondayF": "Monday",
+        "tuesdayF": "Tuesday",
+        "wednesdayF": "Wednesday",
+        "thursdayF": "Thursday",
+        "fridayF": "Friday",
+        "saturdayF": "Saturday"
+    },
+    "settings": {
+        "screenTitle": "Settings",
+        "language": "Language",
+        "safe": "Safe"
+    },
+    "language": {
+        "en": "English",
+        "de": "Deutsch"
+    },
+    "nav": {
+        "home": "Home",
+        "language": "Language",
+        "about": "About",
+        "settings": "Settings",
+        "logout": "Logout"
+    },
+    "dashboard": {
+        "screenTitle": "Dashboard",
+        "lectures": "Lectures",
+        "grades": "Grades",
+        "canteen": "Canteen",
+        "strandbar": "Strandbar",
+        "endlicht": "Endlicht",
+        "events": "Events",
+        "balance": "Printer Balance",
+        "preview": "currently not available"
+    },
+    "strandbar": {
+        "open": "Open",
+        "close": "Closed"
+    }
+}

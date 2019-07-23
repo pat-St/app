@@ -2,6 +2,27 @@
     <NavigationButton visibility="collapsed"></NavigationButton>
     <GridLayout columns="auto,*,auto" ios:padding="0 10" height="100%" width="100%">
         <ActionButton (tap)="navigateBack()" isArrow="true"></ActionButton>
-        <Label col="1" text="Grades" class="action-bar-label"></Label>
+        <Label col="1" text="{{ 'grades.title'| translate}}" class="action-bar-label"></Label>
     </GridLayout>
 </ActionBar>
+<StackLayout *ngIf=currentGrades class="page page-content" tkMainContent>
+    <TabView>
+        <ng-container *ngFor="let item of currentGrades">
+            <StackLayout class="grades-page" *tabItem="{title: changeIdentifier(item.semesterIdentifier)}">
+                <StackLayout class="grades-page-container">
+                    <GridLayout columns="*4,*,*" rows="30" width="100%">
+                        <Label class="grades-table-header" col="0" text="{{ 'grades.course' | translate}}"></Label>
+                        <Label class="grades-table-header" col="1" text="{{ 'grades.mark' | translate}}"></Label>
+                        <Label class="grades-table-header" col="2" text="ECTS"></Label>
+                    </GridLayout>
+                    <GridLayout columns="*4,*,*" rows="30" *ngFor="let performance of item.semesterPerformance; index as i"
+                        width="100%">
+                        <Label col="0" text="{{performance.name}}" stlye="margin-left: 10px;"></Label>
+                        <Label col="1" text="{{performance.grade}}" style="text-align: center;"></Label>
+                        <Label col="2" text="{{performance.ects}}" style="text-align: center;"></Label>
+                    </GridLayout>
+                </StackLayout>
+            </StackLayout>
+        </ng-container>
+    </TabView>
+</StackLayout>

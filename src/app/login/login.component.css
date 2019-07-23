@@ -1,0 +1,33 @@
+.loginframe {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: #334152;
+  }
+  .form {
+    height: 80%;
+  }
+.login-logo {
+  margin-bottom: 50;
+  height: 40%;
+  max-height: 250;
+}
+.input {
+  width: 70%;
+  max-width: 70;
+  margin-bottom: 20;
+  placeholder-color: rgb(163, 163, 163);
+  background-color: white;
+  height: 55;
+}
+.login-button {
+  background-color: #009b91;
+  max-width: 70;
+  margin: 0;
+  padding: 0;
+  width: 72%;
+  color: white;
+  font-size: 18;
+  border-radius: 0;
+  height: 55;
+}
